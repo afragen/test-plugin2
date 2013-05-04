@@ -16,8 +16,8 @@ function my2_github_plugin_updater() {
 
 	github_plugin_updater_register( array(
 		'owner'	=> 'afragen',
-		'repo'	=> 'test-plugin',
-		'slug'	=> 'test-plugin/test-plugin.php', // defaults to the repo value ('repo/repo.php')
+		'repo'	=> 'test-plugin2',
+		'slug'	=> 'test-plugin2/test-plugin2.php', // defaults to the repo value ('repo/repo.php')
 	) );
 }
 add_action( 'plugins_loaded', 'my2_github_plugin_updater' );
